@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Footer Example</title>
+
+    <!-- Tailwind CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-[#659f8f] flex justify-center p-6">
+
+    <footer class="bg-[#659f8f] w-full max-w-6xl p-10 rounded-xl text-gray-900">
+
+        <!-- TOP GRID -->
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
+
+            <!-- Newsletter Section -->
+            <div>
+                <h2 class="text-xl font-semibold mb-4">
+                    Subscribe to our newsletter for updates.
+                </h2>
+
+                <form class="flex flex-col sm:flex-row gap-3 mb-10 md:mb-0">
+                    <input 
+                        type="email"
+                        placeholder="Email Address"
+                        class="px-4 py-2 rounded-md w-full sm:w-64"
+                    />
+
+                    <button
+                        class="bg-[#d86943] text-white font-semibold px-6 py-2 rounded-md w-full sm:w-auto">
+                        Subscribe
+                    </button>
+                </form>
+            </div>
+
+            <!-- Quick Links -->
+            <div>
+                <p class="font-semibold mb-2">Quick Link</p>
+                <ul class="space-y-2">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Who We Are</a></li>
+                    <li><a href="#">Our Philosophy</a></li>
+                </ul>
+            </div>
+
+            <!-- Technologies -->
+            <div>
+                <p class="font-semibold mb-2">Technologies</p>
+                <ul class="space-y-2">
+                    <li><a href="#">HTML</a></li>
+                    <li><a href="#">CSS</a></li>
+                    <li><a href="#">JavaScript</a></li>
+                </ul>
+            </div>
+
+        </div>
+
+        <!-- Divider Line -->
+        <hr class="my-10 border-[#d86943]">
+
+        <!-- CODESPACE LOGO (NOW ALWAYS VISIBLE) -->
+        <div class="flex justify-start">
+            <img 
+                src="https://codespace-assets.global.ssl.fastly.net/wp/assets/website/codespace-primary-logo-light.svg"
+                alt="CodeSpace Logo"
+                class="h-10 w-auto"
+            >
+        </div>
+
+    </footer>
+
+</body>
+</html>
